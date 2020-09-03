@@ -1,7 +1,7 @@
 #Kyle Chen kvc5823@psu.edu  
 #Mitchell Feyl mmf5871@psu.edu
 #Michael Lavallee mal6423@psu.edu
-temperature = float(input ("Enter temperature in celsius: "))
+temperature = float(input ("Enter temperature: "))
 unit = input("Enter unit in F/f or C/c: ")
 
 if unit == "F" or unit == "f":
