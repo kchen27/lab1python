@@ -3,6 +3,7 @@
 #Michael Lavallee mal6423@psu.edu
 temperature = float(input ("Enter temperature in celsius: "))
 unit = input("Enter unit in F/f or C/c: ")
+
 if unit == "F" or unit == "f":
   NewTempinC = (((temperature - 32) * 5)/9)
   print(f"{temperature}° in Fahrenheit is equivalent to {NewTempinC}° Celsius.")
